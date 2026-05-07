@@ -1,0 +1,8 @@
+.mitad-superior {
+  min-height: 700px;
+  color: #ffffff;
+  background:
+
+    linear-gradient(#0d1d34 0%, #172c4d 100%);
+  overflow: hidden;
+}

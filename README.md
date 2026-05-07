@@ -9,19 +9,14 @@
 
 Sitio estático desarrollado como clon visual de la landing page de Educación Continua IPSS. El objetivo es replicar la estructura, disposición y estilo general de la página objetivo usando los conocimientos de las clases 1, 2 y el material complementario.
 
-## Cómo correr localmente
-
-
 ## Estructura del proyecto
 
-```text
 .
 ├── index.html
 ├── main.css
 ├── main.js
 ├── .gitignore
 └── README.md
-```
 
 ## Notas académicas
 No usar jQuery, React, Vue, Tailwind ni herramientas similares por instrucciones de la actividad
