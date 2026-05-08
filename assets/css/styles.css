@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav-container {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden; /* Oculta lo que sale del nav */
+    padding: 10px 0;
+  }
+  
+  .scroller {
+    display: flex; /* Alinea las imágenes horizontalmente */
+    width: 200%; /* El doble de ancho para contener original + duplicado */
+    animation: scrollInfinito 20s linear infinite; /* Tiempo y tipo de animación */
+  }
+  
+  .scroller img {
+    width: 200px; /* Ajusta a tus necesidades */
+    height: auto;
+    margin: 0 10px; /* Espacio entre imágenes */
+  }
+  
+  /* Animación para mover de derecha a izquierda */
+  @keyframes scrollInfinito {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Se mueve hasta la mitad */
+  }
+  
+  /* Pausar la animación al pasar el mouse (opcional) */
+  .nav-container:hover .scroller {
+    animation-play-state: paused;
+  }
+
+  .mi-boton {
+    background-color: #1c243c; /* Color de fondo */
+    color: white;              /* Color del texto */
+    border: none;              /* Quitar borde predeterminado */
+    padding: 10px 20px;        /* Espaciado interno */
+    cursor: pointer;           /* Cambiar cursor a mano */
+  }
+  /* Efecto al pasar el ratón (hover) */
+/* Efecto al pasar el ratón (hover) */
+.mi-boton:hover {
+  background-color: #0d111d;
+}
+.footer-oscuro {
+  background-color: #1c243c;
+  color: white;
+}
+.logo-ipps {
+  display: flex;
+  justify-content: right; /* Centra horizontalmente */
+  align-items: right;     /* Centra verticalmente */
+}
+.correo-ipss {
+  color: white;
+}
